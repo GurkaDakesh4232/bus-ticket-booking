@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaSearch, FaWifi } from 'react-icons/fa';
 import { GiCharging, GiWaterBottle } from 'react-icons/gi';
+
 import { IoTv } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
 
 const Topsearchcard = ({ routeFrom, routeTo, timeDuration, price }) => {
   return (
@@ -62,10 +64,10 @@ const Topsearchcard = ({ routeFrom, routeTo, timeDuration, price }) => {
         <h1 className="text-xl text-neutral-800 font-bold">₹{price}</h1>
 
         {/* Reserve Button */}
-        <button className="bg-primary text-white px-6 py-2 rounded-lg flex items-center text-sm font-medium border-2 border-transparent transition-all duration-200 hover:bg-transparent hover:border-primary hover:text-primary">
+        <Link  to="/bus-tickets" className="bg-primary text-white px-6 py-2 rounded-lg flex items-center text-sm font-medium border-2 border-transparent transition-all duration-200 hover:bg-transparent hover:border-primary hover:text-primary">
 
   Reserve Seat
-</button>
+</Link>
 
       </div>
     </div>

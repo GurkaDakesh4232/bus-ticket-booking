@@ -149,7 +149,11 @@ const Footer = () => {
             {/* copyright */}
             <div className="w-full flex items-center justify-between">
                 <p className="text-sm text-neutral-600 font-normal">
-                    Copyright &Cpoy; 2024 . All rights Reserverd.
+                    Copyright & Copy; 2024 . All rights Reserverd.
+                </p>
+                <p className="text-sm text-red-600 font-normal">
+                    
+                    Developed By D@kesh Yadav
                 </p>
 
                 <div className="flex items-center gap-x-2">
